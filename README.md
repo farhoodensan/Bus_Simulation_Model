@@ -31,3 +31,11 @@ or if you want to run the code with your own parameters in config/test.json
 
 > python run.py test
 
+
+## Logistics
+
+We are using Agent-Based-Modeling to simulate covid-19 transmission in Buses.
+In order to run this simulation, you could change the parameters in config/test.json to simulate different scenarios.
+
+This simulation start with an empty bus. The bus is scheduled to stop at a certain number of stops at certain times, picking up certain number of students. 
+All these parameters are adjustable. As the bus continues, the sick students in the bus transmit the virus by normal activities like talking and breathing, and also coughing, sneezing, etc. This model stops the simulation at the end of a trip where the bus reaches the school (destination). Then this model creates a graph of the number of healthy and sick(if they received the virus) students every minute. There is also a gif of the simulation that shows the position of each student, the time since start, and the layout of the bus.
