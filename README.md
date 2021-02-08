@@ -1,5 +1,5 @@
-# Final
-dsc180a Final Code Submission
+# 
+Capstone Project dsc180B Covid-19 Transmission in Buses
 
 In order to install mesa-geo and rtree, we have copied Johnny Lei's README file from our domain repo. Here it is:
 
@@ -26,3 +26,8 @@ end of credit to J.L
 Open terminal, change to the directory of the code, then type in the following command 
 
 > python run.py
+
+or if you want to run the code with your own parameters in config/test.json
+
+> python run.py test
+
