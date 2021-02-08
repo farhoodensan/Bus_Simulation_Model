@@ -5,9 +5,9 @@ import pandas as pd
 import numpy as np
 import random
 import matplotlib as plt
-import plotly
-import plotly.express as px
-import plotly.graph_objects as go
+# import plotly
+# import plotly.express as px
+# import plotly.graph_objects as go
 import os.path
 import json
 

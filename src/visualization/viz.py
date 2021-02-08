@@ -10,9 +10,9 @@ import numpy as np
 import random
 import shapely
 from shapely.geometry import Polygon, Point, LineString
-import plotly
-import plotly.express as px
-import plotly.graph_objects as go
+# import plotly
+# import plotly.express as px
+# import plotly.graph_objects as go
 import os.path
 import json
 
