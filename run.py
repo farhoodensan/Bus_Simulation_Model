@@ -7,9 +7,9 @@ from mesa import Model
 import pandas as pd
 import numpy as np
 import random
-# import plotly
-# import plotly.express as px
-# import plotly.graph_objects as go
+import plotly
+import plotly.express as px
+import plotly.graph_objects as go
 import sys
 import shapely
 from shapely.geometry import Polygon, Point, LineString
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
     print('> Working on Visualization \n .')
     # making the results graph showing number of healthy and sick passangers in each step
-    # Visualize().make_viz(results,params)
+    Visualize().make_viz(results,params)
     print(" .")
     #making the gif of the bus showing the location of healhty and sick people in each step
     GifMaker().make_gif(agent_data,params)
